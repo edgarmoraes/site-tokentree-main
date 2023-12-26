@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --white: #FFF;
+    --whitesmoke: #F9F9F9;
+    --light-grey: #ececec8e;
+    --grey: #C4C4C4;
+    --medium-grey: #A7A7A7;
+    --deep-grey: #33322f;
+    --black: #000000;
+    --blue: #1B77F3;
+    --red: #CF3C3F;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #304a37;
+    width: 100%;
+    height: 90px;
+    text-align: right;
+}
+
+.logo {
+   width: 20%;
+   padding: 10px 0 0 0;
+}
+
+.started {
+    padding-top: 35px;
+    width: 60%;
+}
+
+
+.started a {
+    background-color: #f9f5ec;
+    color: #304a37;
+    text-decoration: none;
+    border-radius: 18px; 
+    font-weight: bold;
+    padding: 8px 12px;
+    font-size: 19px;
+    transition: all 0.5s;
+}
+
+.started a:hover {
+    background-color: #5e8769;
+    color: #f9f5ec;
+    text-decoration: none;
+    border-radius: 18px; 
+    font-weight: bold;
+    padding: 8px 12px;
+    font-size: 21px;
+}
+
+section.home {
+    height: 450px;
+    background-color: #f9f5ec;
+}
+
+.banner1  {
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.home h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #33322f;
+    rotate: 180;
+}
+
+
+section.services {
+    height: 370px;
+    border: 2px solid gray;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    padding-top: 25px;
+    color: #33322f;
+    text-align: center;
+}
+
+.container1, .container2, .container3 h2 {
+    text-align: center;
+    padding: 10px;
+} 
+
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f5ec;
+    padding-top: 10px;
+}
+
+.filters .img-filters {
+    transform: rotate(180deg);
+}
+
+.filters h1 {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 40px;
+    color: #445f50;
+    border: #f9f5ec solid 5px;
+}
+
+.nfts {
+    background-color: #f9f5ec;
+}
+
+.nft-menu {
+    padding-top: 30px;
+    display: flex;
+    padding-left: 25vh;
+    padding-right: 25vh;
+    justify-content: space-between;
+    
+}
+
+.nft-menu img {
+    box-shadow: 2px 0  0.9em gray;
+    border-radius: 28px 28px 0 0;
+}
+
+.nft-name {
+    padding-top: 0px;
+    padding-bottom: 55px;
+    display: flex;
+    padding-left: 25vh;
+    padding-right: 25vh;
+    justify-content: space-between;
+}
+
+.nft-name img {
+    box-shadow: 2px 0  0.9em gray;
+    border-radius: 0px 0px 28px 28px;
+}
+
+
+.show-more {   
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.show-more a {
+    padding-top: 35px;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    background-color:#304a37;
+    color: #f9f5ec;
+    text-decoration: none;
+    border-radius: 18px; 
+    font-weight: bold;
+    padding: 8px 12px;
+    font-size: 19px;
+    transition: all 0.5s;
+}
+
+
+footer {
+    background-color: #445f50;
+    height: 288px;
+    display: flex;
+}
+
+.footer-text {
+    color:#f9f5ec;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.footer-box {
+    display: flex;
+}
+
+
+.footer-box a{
+    padding: 18px;
+    background-color: #f9f5ec;
+    color: #304a37;
+    margin: 13px 0 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+
+.login__label {
+    padding-left: 60px;
+    padding-top: 15px;
+    display: block;
+    width: 500px;
+    border-radius: 150px;
+}
+
+.input {
+    transition: all 1s;
+    width: 100%;
+    background-color: none;
+    border: 2px solid #f9f5ec;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    background-color: #445f50;
+    font-weight: 600;
+    color: var(--deep-grey);    
+    border-radius: 17px;
+}
+  
+.login__label span {
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--medium-grey);
+    margin: 20px;
+    cursor: text;
+    transition: all 200ms ease;
+}
+
+  
+.login__label .span-active {
+    font-size: 0.5em;
+    padding-left: 15px;
+    margin: 8px 10px;
+}
+
+.footer, .footer-right h3 {
+    padding-top: 85px;
+    padding-left: 30vw;
+    color: #f9f5ec;   
+}
+
+.footer-right {
+    color: #f9f5ec;    
+}
+
+.icones {
+    padding-top: 1px;
+    padding-left: 22vw;
+    font-size: 50px;
+}
+
+footer .footer-right, .icones a {
+    text-decoration: none;
+}
+
+footer .footer-right, .icones a:visited {
+    color: #f9f5ec;
+}
+
